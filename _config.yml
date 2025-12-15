@@ -1,0 +1,17 @@
+# Site settings
+title: Studentische Elterninitiative Hänsel & Gretel e.V.
+description: Eine studentische Elterninitiative für Kinderbetreuung
+url: "" # Leave empty for now, will be set when deploying to GitHub Pages
+
+# Build settings
+markdown: kramdown
+
+# Collections (optional - uncomment if you want to use custom collections)
+# collections:
+#   team:
+#     output: true
+
+# Exclude from processing
+exclude:
+  - README.md
+  - design/
