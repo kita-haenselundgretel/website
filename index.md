@@ -65,7 +65,7 @@ layout: default
     </p>
   </div>
   <div class="image-content">
-    <img src="assets/images/location-outside.jpg" alt="Krippe von außen im Frühling">
+    <img src="assets/images/einrichtung-besuchen.jpg" alt="Kinder spielen im Garten, von hinten gesehen">
   </div>
 </section>
 
