@@ -388,15 +388,17 @@ main {
     justify-content: center;
   }
 
+  /* 1 column for ALL sections */
   .section-with-image {
     grid-template-columns: 1fr;
   }
 
-  .section-with-image.reverse .text-content {
+  /* Always put text first on mobile */
+  .section-with-image .text-content {
     order: 1;
   }
 
-  .section-with-image.reverse .image-content {
+  .section-with-image .image-content {
     order: 2;
   }
 
@@ -424,3 +426,4 @@ main {
     height: 200px;
   }
 }
+
