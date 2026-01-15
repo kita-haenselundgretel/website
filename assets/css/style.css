@@ -388,21 +388,19 @@ main {
     justify-content: center;
   }
 
-  /* 1 column for ALL sections */
-  .section-with-image {
-    grid-template-columns: 1fr;
-  }
-
+  .section-with-image,
   .section-with-image.reverse {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
 
-  /* Always put text first on mobile */
-  .section-with-image .text-content {
+  .section-with-image .text-content,
+  .section-with-image.reverse .text-content {
     order: 1;
   }
 
-  .section-with-image .image-content {
+  .section-with-image .image-content,
+  .section-with-image.reverse .image-content {
     order: 2;
   }
 
