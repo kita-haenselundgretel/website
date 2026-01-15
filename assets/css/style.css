@@ -393,6 +393,10 @@ main {
     grid-template-columns: 1fr;
   }
 
+  .section-with-image.reverse {
+    grid-template-columns: 1fr;
+  }
+
   /* Always put text first on mobile */
   .section-with-image .text-content {
     order: 1;
