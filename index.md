@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Home
 ---
 
 <section id="welcome" class="content-section section-centered">
